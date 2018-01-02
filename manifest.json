@@ -1,0 +1,23 @@
+{
+   "author": "Lukas Vana",
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "description": "Shortcut for downlad video by yout.com (click on download icon next to Youtube video URL)",
+   "icons": {
+      "128": "images/icon128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhP49sHj0coGAA9j+gkTCmBtQlQnjAvj/ogmIDAzg5eKsi6iaCP+oKJJSwqgpl2yrpCOl7IX+TETE908fNTD2lcct8CJkJmqAotwTIn1LOYJsSSwE/XCN7K9tJVJIcxWpDFfkOseN4u4svu0aSX5YaJDnv9teRDxZAtJCSpUQwXWZ2TEp6u4FkCPyrtOFgxR5Zk9H/xknLrt70UvrgSemmVQhPQTbol35zwgvbNz7BcKE/oBkKxPAqqFOVjGmwGtEA/RFukkjsAZLVhjbB60p92Q/74r6fyB06OzbsO5+6J4A0LYkAAzNb9PqhtMvw+vPk5kJaa0Ri031mH1ncF/FcwIDAQAB",
+   "manifest_version": 2,
+   "name": "Yout",
+   "page_action": {
+      "default_icon": {
+         "19": "images/icon19.png",
+         "38": "images/icon38.png"
+      },
+      "default_title": "Download"
+   },
+   "permissions": [ "tabs", "https://www.youtube.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1"
+}
