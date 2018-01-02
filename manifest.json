@@ -3,7 +3,7 @@
    "background": {
       "scripts": [ "background.js" ]
    },
-   "description": "Shortcut for downlad video by yout.com (click on download icon next to Youtube video URL)",
+   "description": "Shortcut for download video by yout.com (click on Yout icon, when visiting Youtube video)",
    "icons": {
       "128": "images/icon128.png"
    },
